@@ -53,7 +53,7 @@ void setup()
     digitalWrite(SLEEP_PIN, HIGH);
     digitalWrite(DIR_PIN, HIGH);
     digitalWrite(STEP_PIN, LOW);
-    //digitalWrite(M0_PIN, LOW);    // TODO -- make floating 
+   
     digitalWrite(M1_PIN, LOW);
 
 	  Wire.begin();  // start I2C -- uses analog pins A4 and A5
